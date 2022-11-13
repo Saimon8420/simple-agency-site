@@ -1,0 +1,276 @@
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 5px;
+}
+
+.logo img {
+    height: 40px;
+}
+
+.social-icon img {
+    height: 40px;
+}
+
+nav button {
+    border: none;
+    background-color: white;
+    font-weight: bold;
+    cursor: pointer;
+    color: rgb(26, 26, 26);
+}
+
+nav button:hover {
+    color: rgb(254, 92, 43);
+}
+
+body {
+    width: 100%;
+    margin: 0px;
+    background-color: white;
+}
+
+#info {
+    background-image: url(/images/man-working-night.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 700px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.description {
+    color: white;
+    width: 50%;
+    margin-left: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.description p {
+    text-align: justify;
+}
+
+.description h2 {
+    font-size: 80px;
+    overflow-wrap: break-word;
+    margin: 0px;
+}
+
+.description button {
+    background-color: rgb(254, 92, 43);
+    padding: 20px;
+    color: white;
+    border: none;
+    width: 30%;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.description button:hover {
+    color: black;
+}
+
+.banner {
+    width: 100%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.banner h3 {
+    color: white;
+    font-size: 50px;
+    background-color: rgb(247, 88, 42);
+    height: 250px;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+.banner h3>img {
+    z-index: 2;
+    /* margin-right: 300px; */
+}
+
+.about {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 100px;
+}
+
+.question-info {
+    width: 30%;
+    padding: 50px;
+}
+
+.question-info h3 {
+    color: rgb(55, 50, 43);
+    font-size: 30px;
+}
+
+.question-info button {
+    background-color: rgb(51, 34, 48);
+    color: white;
+    border: none;
+    padding: 20px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.question-info button:hover {
+    color: rgb(247, 88, 42);
+}
+
+.answer-info {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+.answer-head {
+    background-color: rgb(247, 88, 42);
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 20px;
+    color: white;
+}
+
+.answer-head h5 {
+    font-size: 20px;
+    word-break: break-all;
+}
+
+.answer-head h5>img {
+    display: block;
+    height: 50px;
+    width: auto;
+}
+
+.answer-body {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    text-align: justify;
+    padding: 20px;
+}
+
+.answer-body p {
+    word-wrap: break-word;
+    text-align: justify;
+}
+
+.more-about {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.image {
+    height: 400px;
+}
+
+.image img {
+    height: 400px;
+    width: 100%;
+}
+
+.details {
+    background-color: rgb(51, 34, 48);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 60px;
+    text-align: justify;
+}
+
+.details button {
+    background-color: rgb(254, 92, 43);
+    color: white;
+    border: none;
+    padding: 20px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.details button:hover {
+    color: black;
+}
+
+.contact {
+    background-color: white;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 10px 25%;
+    margin-top: 50px;
+    gap: 20%;
+}
+
+.contact-info {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.contact-info h5,
+p {
+    margin: 0px;
+}
+
+.contact-info img {
+    height: 80px;
+    background-color: white;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.contact-form p {
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+.contact-form p input,
+textarea {
+    border: none;
+    border-bottom: 2px solid gray;
+}
+
+.contact-form p input:focus,
+textarea:focus {
+    border: none;
+}
+
+.contact-form button {
+    padding: 10px;
+    border: none;
+    background-color: rgb(254, 92, 43);
+    margin-left: 65px;
+    margin-top: 10px;
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+}
+
+.contact-form button:hover {
+    color: black;
+}
+
+footer {
+    background-color: rgb(47, 35, 57);
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
